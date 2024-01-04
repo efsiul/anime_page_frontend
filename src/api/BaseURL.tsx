@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 
-const BaseURL                   = 'http://192.168.1.198:8000/';
+export const BaseURL                   = 'http://192.168.1.198:8080/';
 
 export const insecureInstance   = axios.create({
     baseURL: BaseURL,
